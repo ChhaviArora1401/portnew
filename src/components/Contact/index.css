@@ -1,0 +1,13 @@
+.error {
+    background-color: #ff0000;
+    z-index: 3;
+    color: #ffffff;
+    padding: 1% 1.5%;
+}
+
+.success {
+    background-color: #04AA6D;
+    z-index: 3;
+    color: #ffffff;
+    padding: 1% 1.5%;
+}
