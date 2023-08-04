@@ -1,79 +1,129 @@
-
-.navbar, .navbar-toggle {
-  visibility: hidden;
+.nav-menu {
+  background-color: #8444df;
   position: absolute;
-  cursor: pointer;
+  transition: 0.3s;
+  height: 100vh;
+  width: 105px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
 }
 
-@media (max-width: 990px) {
-    .text {
-    visibility: visible;
-    }
+.nav-menu:hover {
+  width: 220px;
+}
 
-    .navbar {
+.text {
+  visibility: hidden;
+  color: #fff;
+}
+
+.nav-menu:hover .text {
+  visibility: visible;
+}
+
+.logo {
+  text-align: center;
+  padding: 30px 15px;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  background-color: #773dc8;
+}
+
+.icon {
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85em;
+  max-height: 300px;
+  text-align: center;
+}
+
+.menu .subitem,
+.menu .last {
+  display: flex;
+  padding: 12px 0px 12px 30px;
+  margin: 0 15px 5px 15px;
+  margin-bottom: 5px;
+}
+
+.subitem .text,
+.last .text {
+  margin: 0 15px 0 15px;
+}
+
+.menu .subitem:hover {
+  background-color: #9D69E5;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+}
+
+.menu .last {
+  align-items: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media (max-width: 990px) {
+
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+
+  .fa-bars:before {
+    color: #555;
+  }
+
+  .navbar {
     position: fixed;
     right: 0;
     visibility: visible;
     padding: 0 5% 0 0;
-    }
+  }
 
-    .navbar-toggle {
+  .navbar-toggle {
     position: absolute;
     right: 0;
     visibility: visible;
     padding: 0 5% 0 0;
     margin: 10% 5% 0 0;
-    }
+  }
 
-    .fa-bars:before {
-      color: #555;
-    }
-
-    .menu-bars {
-    margin-left: 2rem;
-    font-size: 2rem;
-    background: none;
-    }
-
-    .nav-menu {
+  .nav-menu {
     background-color: #8444df;
-    width: 250px;
+    position: absolute;
+    transition: 0.3s;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: -100%;
-    transition: 850ms;
-    }
-
-    .nav-menu .active {
-    left: 0;
-    transition: 350ms;
-    }
-
-    .nav-text {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 8px 0px 8px 16px;
-    list-style: none;
-    height: 60px;
-    }
-
-    .nav-text a {
+    width: 220px;
     text-decoration: none;
-    color: #f5f5f5;
-    font-size: 18px;
-    width: 95%;
-    height: 100%;
+    font-size: 20px;
+    color: white;
+    position: fixed;
     display: flex;
-    align-items: center;
-    padding: 0 16px;
-    border-radius: 4px;
-    }
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100;
+  }
 
-    .nav-menu-items {
-    width: 100%;
-    }
+  .text {
+    visibility: visible;
+    color: #fff;
+  }
+
 }

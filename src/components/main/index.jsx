@@ -23,7 +23,7 @@ width: 100%;
     position: relative;
 }
 
-.text {
+.text1 {
     padding: 30px 0;
     margin: auto;
     width: 80%;
@@ -112,7 +112,7 @@ const Intro = () => {
     return <Wrapper id="home" className="main-content">
         <div className='sectionContain'>
             <div className='image'><img src={Me} /></div>
-            <div className='text'>
+            <div className='text1'>
                 <em>HI THERE! I'M</em>
                 <h1 className='head'><span className='color-text'>CHHAVI</span> ARORA</h1>
                 <p>A <span className='color-text'>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
