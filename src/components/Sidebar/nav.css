@@ -1,3 +1,4 @@
+
 .nav-menu {
   background-color: #8444df;
   position: absolute;
@@ -83,7 +84,6 @@ a {
   display: none;
 }
 
-
 @media (max-width: 990px) {
 
   .navbar {
@@ -141,5 +141,4 @@ a {
     visibility: visible;
     color: #fff;
   }
-
 }
