@@ -110,8 +110,8 @@ const Skills = (props) => {
         </div>
         <div className="skills sectionContain">
             {
-                icon.map((li) => {
-                    return <Icons src={li.src} span={li.span} />
+                icon.map((li, index) => {
+                    return <Icons src={li.src} span={li.span} key={index} />
                 })
             }
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Navbar = (props) => {
+  console.log(props, "pp")
   return (
     <div className='navbar'>
       <span className='menu-bars'>

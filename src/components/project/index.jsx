@@ -196,11 +196,9 @@ const Project = (props) => {
             <p>{head}</p>
         </div>
         <div className="sectionContain">
-            {
-                works.map((li) => {
-                    return <Work src={li.src} heading={li.heading} span={li.techstats} desc={li.desc} livelink={li.livelink} />
-                })
-            }
+            {works.map((li, index) => {
+                    return <Work key={index} src={li.src} heading={li.heading} span={li.techstats} desc={li.desc} livelink={li.livelink} />
+            })}
         </div>
     </Wrapper>
 };
@@ -214,13 +212,9 @@ const Work = (props) => {
             <a href={props.livelink} target="_blank" rel="noreferrer"><h3>{props.heading}</h3></a>
             Technologies Used:
             <span span className='spans'>
-                {
-                    props.span.map((li) => {
-                        return <>
-                            <Tech span={li} />
-                        </>
-                    })
-                }
+                {props.span.map((li, index) => {
+                        return <Tech span={li} key={index} />
+                })}
             </span>
             <p>{props.desc}</p>
             <p>

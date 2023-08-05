@@ -29,7 +29,7 @@ flex-direction: column;
     width: 20px;
 }
 
-.icon {
+.icon1 {
     display: inline-block;
     padding: 10px 18px;
     background: #f7f7f7;
@@ -77,7 +77,7 @@ a {
     .fields {
        width: 90%;
     }
-    .icon {
+    .icon1 {
         background-color: rgba(0,0,0, 0.4);
     }
     #mail {
@@ -142,7 +142,7 @@ const Contact = (props) => {
             <h3>Get In Touch</h3>
             <div className='parti'>
                 <div className='c1'>
-                    <span className='icon'><i class="fa-solid fa-envelope"></i></span>
+                    <span className='icon1'><i class="fa-solid fa-envelope"></i></span>
                     <a href="mailto:chhaviarora1401@gmail.com" id="mail">chhaviarora1401@gmail.com</a>
                     Email me
                 </div>
