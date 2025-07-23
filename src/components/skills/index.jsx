@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import Jest from "../../assets/logos/Jest.png";
+import Jest from "../../assets/logos/jest.png";
 import Tailwind from "../../assets/logos/tailwind.jpg";
 import Redux from "../../assets/logos/redux.png";
 import Restapi from "../../assets/logos/restapi.png";
