@@ -6,6 +6,7 @@ import weeezaa from "../../assets/weeezaa.png";
 import fanwiki from "../../assets/fanwiki.png";
 import portfolio from "../../assets/portfolio.png";
 import documentIt from "../../assets/documentIt.png";
+// import 
 
 const Wrapper = styled.section`
 .grid {
@@ -92,6 +93,19 @@ h3 a {
 
 const works = [
     {
+        src: "",
+        heading: "React Money Manager",
+        techstats: [
+            "React",
+            "Redux",
+            "XLSX (SheetJS)",
+            "JavaScript",
+            "FireBase"
+        ],
+        desc: "Built a full-stack expense tracker using React.js and Firebase Firestore. Implemented Google OAuth for secure authentication and user session persistence. Designed reusable components and custom React hooks for transactions and balance logic. Added Excel/CSV import for bank statement parsing and transaction ingestion. Integrated Chart.js for interactive charts with category-wise breakdown. Enabled manual balance editing, category customization, and date range filtering in a responsive UI.",
+        livelink: "https://reactmoneymanager-97354.web.app"
+    },
+    {
         src: documentIt,
         heading: "Document It (Google Docs Clone)",
         techstats: [
@@ -151,19 +165,6 @@ const works = [
         desc: "Halloween Carnival is a platform made on XAMPP Stack(OS, Apache, MySQL, PHP), which is a demonstration of how SQL injection is used to bypass a login system without login credentials purely for hacking basic fundamentals study.",
         livelink: "http://halloween-carnival.rf.gd/"
     },
-    // {
-    //     src: david,
-    //     heading: "David Chu's China Bistro",
-    //     techstats: [
-    //         "HTML",
-    //         "CSS",
-    //         "JavaScript",
-    //         "Bootstrap",
-    //         "Ajax"
-    //     ],
-    //     desc: "David Chu's China Bistro is the website made for a restaurant that is built using HTML, CSS, JavaScript and Ajax. In this website we pull the data for the restaurant menu dynamically from the server without having to reload the entire page.",
-    //     livelink: "https://chhaviarora1401.github.io/Restaurant-Website/"
-    // },
     {
         src: weeezaa,
         heading: "Weeezaa Board",

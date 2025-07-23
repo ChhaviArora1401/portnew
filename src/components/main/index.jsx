@@ -115,7 +115,7 @@ const Intro = () => {
             <div className='text1'>
                 <em>HI THERE! I'M</em>
                 <h1 className='head'><span className='color-text'>CHHAVI</span> ARORA</h1>
-                <p>A <span className='color-text'>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
+                <p>A <span className='color-text'>Front-End Developer</span> passionate about creating interactive applications and experiences on the web.</p>
                 <div className='buttons'>
                     <a href="https://docs.google.com/document/d/17TszO83mB7xIcdvlIOuW2TaSvM2TJtwLUpglNnW_pQo/edit?usp=sharing" target="_blank" rel="noreferrer"><button className='button-intro'>Resume</button></a>
                     <span className='socials'>

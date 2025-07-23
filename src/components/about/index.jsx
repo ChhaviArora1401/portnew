@@ -20,10 +20,7 @@ const About = (props) => {
             <p>{head}</p>
         </div>
         <article className='about sectionContain'>
-            <p>A self-taught front end developer who loves coding.
-                My front end journey started since March 2021.
-                I pursued graduation in BCA from <span className='color-text'>Vivekananda Institute of Professional Studies</span>.
-                I am an Experienced front-end web developer with expertise in React and a track record of delivering exceptional user experiences. Proficient in modern web technologies, responsive design, and cross-browser compatibility, driving the development of visually appealing and performant web applications.</p>
+            <p>Frontend Developer with 2.5 years of hands-on experience building responsive and scalable web applications using React, Redux, Firebase, and Tailwind CSS. Skilled in routing (React Router), testing (Jest, RTL), and modern frameworks like Next.js. Adept at writing clean, maintainable code and working in fast-paced, agile teams.</p>
         </article>
     </Wrapper >
 };

@@ -10,7 +10,7 @@ padding-left: 6%;
 `
 const Foot = () => {
     return <Wrapper className='flex'>
-        <center>© Chhavi Arora 2022</center>
+        <center>© Chhavi Arora 2025</center>
     </Wrapper >
 };
 
